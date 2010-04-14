@@ -1,0 +1,1 @@
+require 'rh_yui_richtext_editor'

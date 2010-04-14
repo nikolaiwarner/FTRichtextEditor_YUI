@@ -1,0 +1,20 @@
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.8.0r4/build/assets/skins/sam/skin.css" />
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&2.8.0r4/build/container/container_core-min.js&2.8.0r4/build/menu/menu-min.js&2.8.0r4/build/element/element-min.js&2.8.0r4/build/button/button-min.js&2.8.0r4/build/editor/editor-min.js"></script>
+
+
+<script> 
+  $(function(){
+    $('body').addClass("yui-skin-sam");
+    var richtext_editor_textarea = $(".richtext_editor").get(0);
+    var $richtext_editor_textarea = $(richtext_editor_textarea);
+    var richtext_editor = new YAHOO.widget.Editor(richtext_editor_textarea, {
+      height: $richtext_editor_textarea.height(),
+      width: $richtext_editor_textarea.width(),
+      dompath: true,
+      animate: true,
+      handleSubmit: true
+    });
+    richtext_editor.render();
+
+  });
+</script>
