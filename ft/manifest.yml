@@ -1,0 +1,8 @@
+filename:     FTRichtextEditor_YUI
+title:        "FTRichtextEditor: YUI"
+description:  "A pleasant rich text editor for producing fancy content in Finethread textareas using YUI."
+version:      1.0
+authors:            ['Nikolai Warner']
+min_ft_version:     0.3.0
+homepage:           'http://fineslacks.com'
+update_url:         ''

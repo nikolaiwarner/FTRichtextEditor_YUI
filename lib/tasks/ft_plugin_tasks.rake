@@ -1,6 +1,6 @@
-hamespace :rh do
+hamespace :ft do
   namespace :plugin do
-    namespace :user_system_gravatar do   
+    namespace :ftrichtexteditor_yui do   
  
       desc 'runs after downloading plugin'
       task :post_install do

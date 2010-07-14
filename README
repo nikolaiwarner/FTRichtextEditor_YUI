@@ -1,12 +1,11 @@
-RhYuiRichtextEditor
+FTRichtextEditor-YUI
 ===================
 
-A pleasant rich text editor for producing fancy content in RH textareas.
+A pleasant rich text editor for producing fancy content in Finethread textareas.
 
 
 Install:
-
-script/plugin install git://github.com/nikolaiwarner/rh_yui_richtext_editor.git
+script/plugin install git://github.com/nikolaiwarner/FTRichtextEditor_YUI.git
 
 
 Copyright (c) 2010 Nikolai Warner, released under the MIT license
